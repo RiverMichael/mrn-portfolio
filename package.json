@@ -18,5 +18,23 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3"
-  }
+  },
+  "description": "My personal portfolio website built with Next.js and TailwindCSS.",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiverMichael/mrn-portfolio.git"
+  },
+  "keywords": [
+    "Next.js",
+    "Tailwind",
+    "CSS",
+    "DaisyUi"
+  ],
+  "author": "Michael River Nilsson <mrn@michaelriver.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiverMichael/mrn-portfolio/issues"
+  },
+  "homepage": "https://github.com/RiverMichael/mrn-portfolio#readme"
 }
