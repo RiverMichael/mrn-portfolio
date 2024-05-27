@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { SiNextdotjs } from "react-icons/si";
 
 export default function Home() {
   return (
