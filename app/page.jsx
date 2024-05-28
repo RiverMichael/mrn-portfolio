@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex min-h-screen flex-col items-center justify-center px-5">
+    <main className="flex grow flex-col items-center justify-center px-5">
       <div className="animate-glow h-px w-screen animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 md:block" />
       <h1 className="text-edge-outline font-display z-10 animate-title cursor-default whitespace-nowrap text-wrap bg-white bg-clip-text py-5 text-center text-4xl text-transparent duration-1000 sm:text-6xl xl:text-8xl">
         Michael River Nilsson

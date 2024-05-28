@@ -1,6 +1,7 @@
 import { Merriweather_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/ui/Header";
+import Footer from "./components/ui/Footer";
 
 const merriweather_sans = Merriweather_Sans({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={merriweather_sans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
