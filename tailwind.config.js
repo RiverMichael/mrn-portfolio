@@ -5,8 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  daysiui: {
+    themes: [{ mytheme: { coralred: "#f84759" } }],
+  },
   theme: {
     extend: {
+      colors: {
+        coralred: "#f84759",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
