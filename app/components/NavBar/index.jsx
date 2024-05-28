@@ -38,18 +38,46 @@ export default function NavBar() {
       </div>
 
       <div className="navbar-end">
-        <ul className="menu menu-horizontal hidden gap-5 text-lg md:flex">
-          <li className="py-1">Contact</li>
-          <li className="py-1">Contact</li>
-          <li className="py-1">Contact</li>
-          <li className="py-1">Contact</li>
+        <ul className="menu menu-horizontal hidden gap-10 p-0 text-lg md:flex">
+          <li>
+            <Link
+              href="#about"
+              className="p-0 hover:bg-black hover:text-coralred"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#skills"
+              className="p-0 hover:bg-black hover:text-coralred"
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#portfolio"
+              className="p-0 hover:bg-black hover:text-coralred"
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#contact"
+              className="p-0 hover:bg-black hover:text-coralred"
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
 
         <div className="dropdown flex">
           <button
             tabIndex={0}
             role="button"
-            className="text-coralred p-0 md:hidden"
+            className="p-0 text-coralred md:hidden"
             aria-label="Show menu"
           >
             <Hamburger
@@ -65,12 +93,44 @@ export default function NavBar() {
 
           <ul
             tabIndex={0}
-            className={`${isNavOpen ? "block" : "hidden"} border-coralred menu dropdown-content right-0 top-14 z-[1]  flex justify-end gap-4 rounded-bl border-b-2 border-s-2 bg-black px-10 py-5 text-lg`}
+            className={`${isNavOpen ? "block" : "hidden"} menu dropdown-content right-0 top-14 z-[1] flex justify-end gap-5 rounded-bl border-b-2 border-s-2 border-coralred bg-black px-10 py-5 text-lg`}
           >
-            <li>About</li>
-            <li>About</li>
-            <li>About</li>
-            <li>About</li>
+            <li>
+              <Link
+                href="#about"
+                onClick={() => setIsNavOpen(false)}
+                className="p-0 hover:bg-black hover:text-coralred"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#skills"
+                onClick={() => setIsNavOpen(false)}
+                className="p-0 hover:bg-black hover:text-coralred"
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#portfolio"
+                onClick={() => setIsNavOpen(false)}
+                className="p-0 hover:bg-black hover:text-coralred"
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#contact"
+                onClick={() => setIsNavOpen(false)}
+                className="p-0 hover:bg-black hover:text-coralred"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
