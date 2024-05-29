@@ -29,6 +29,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      boxShadow: {
+        primary: "1px 2px 8px 1px rgba(248, 71, 89, 0.39)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -103,5 +106,26 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    function ({ addComponents }) {
+      const skillItems = {
+        ".skill-item": {
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "8px",
+          padding: "5px",
+          width: "110px",
+          height: "110px",
+          transition: "all 0.2s ease-in-out",
+          "&:hover": {
+            boxShadow: "0 2px 8px 0 rgba(248, 71, 89, 1)",
+          },
+        },
+      };
+      addComponents(skillItems);
+    },
+  ],
 };

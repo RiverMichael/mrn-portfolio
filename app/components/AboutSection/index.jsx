@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="animate-fade-in-sections flex max-w-5xl flex-col items-center justify-center gap-12 duration-500"
+      className="flex max-w-5xl animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
     >
       <h2 className="text-4xl font-bold capitalize text-primary sm:text-5xl xl:text-6xl">
         About me
@@ -16,7 +16,7 @@ export default function AboutSection() {
           alt="Avatar"
           width={500}
           height={500}
-          className="h-72 w-72 rounded-full border-2 border-primary border-opacity-50 object-cover object-top ps-8 pt-3 sm:h-80 sm:w-80"
+          className="h-72 w-72 rounded-full object-cover object-top ps-8 pt-3 shadow-primary sm:h-80 sm:w-80"
         />
 
         <article className="flex max-w-lg flex-col gap-8">
