@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroSection() {
   return (
     <section className="flex w-full flex-col px-10">
@@ -13,9 +15,12 @@ export default function HeroSection() {
             frontend developer specializing in React, Next.js, and Tailwind CSS.
           </p>
 
-          <button className="btn btn-primary btn-sm mt-5 rounded border-2 text-lg hover:bg-black hover:text-primary">
+          <Link
+            href="#contact"
+            className="btn btn-primary btn-sm mt-5 rounded border-2 text-lg hover:bg-black hover:text-primary"
+          >
             Contact me
-          </button>
+          </Link>
         </div>
       </div>
     </section>
