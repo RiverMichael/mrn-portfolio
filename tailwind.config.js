@@ -5,14 +5,30 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  daysiui: {
-    themes: [{ mytheme: { coralred: "#f84759" } }],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#f84759",
+          ".nav-link": {
+            color: "#e4e4e7",
+          },
+          ".nav-link:hover": {
+            color: "#f84759",
+          },
+          ".link": {
+            color: "#71717a",
+            "text-decoration": "none",
+          },
+          ".link:hover": {
+            color: "#3f3f46",
+          },
+        },
+      },
+    ],
   },
   theme: {
     extend: {
-      colors: {
-        coralred: "#f84759",
-      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

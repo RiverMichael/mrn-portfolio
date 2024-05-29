@@ -40,34 +40,22 @@ export default function NavBar() {
       <div className="navbar-end">
         <ul className="menu menu-horizontal hidden gap-10 p-0 text-lg md:flex">
           <li>
-            <Link
-              href="#about"
-              className="p-0 hover:bg-black hover:text-coralred"
-            >
+            <Link href="#about" className="nav-link p-0">
               About
             </Link>
           </li>
           <li>
-            <Link
-              href="#skills"
-              className="p-0 hover:bg-black hover:text-coralred"
-            >
+            <Link href="#skills" className="nav-link p-0">
               Skills
             </Link>
           </li>
           <li>
-            <Link
-              href="#portfolio"
-              className="p-0 hover:bg-black hover:text-coralred"
-            >
+            <Link href="#portfolio" className="nav-link p-0">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link
-              href="#contact"
-              className="p-0 hover:bg-black hover:text-coralred"
-            >
+            <Link href="#contact" className="nav-link p-0">
               Contact
             </Link>
           </li>
@@ -77,7 +65,7 @@ export default function NavBar() {
           <button
             tabIndex={0}
             role="button"
-            className="p-0 text-coralred md:hidden"
+            className="p-0 text-primary md:hidden"
             aria-label="Show menu"
           >
             <Hamburger
@@ -93,13 +81,13 @@ export default function NavBar() {
 
           <ul
             tabIndex={0}
-            className={`${isNavOpen ? "block" : "hidden"} menu dropdown-content right-0 top-14 z-[1] flex justify-end gap-5 rounded-bl border-b-2 border-s-2 border-coralred bg-black px-10 py-5 text-lg`}
+            className={`${isNavOpen ? "block" : "hidden"} menu dropdown-content right-0 top-14 z-[1] flex justify-end gap-5 rounded-bl border-b-2 border-s-2 border-primary bg-black px-10 py-5 text-lg`}
           >
             <li>
               <Link
                 href="#about"
                 onClick={() => setIsNavOpen(false)}
-                className="p-0 hover:bg-black hover:text-coralred"
+                className="nav-link p-0"
               >
                 About
               </Link>
@@ -108,7 +96,7 @@ export default function NavBar() {
               <Link
                 href="#skills"
                 onClick={() => setIsNavOpen(false)}
-                className="p-0 hover:bg-black hover:text-coralred"
+                className="nav-link p-0"
               >
                 Skills
               </Link>
@@ -117,7 +105,7 @@ export default function NavBar() {
               <Link
                 href="#portfolio"
                 onClick={() => setIsNavOpen(false)}
-                className="p-0 hover:bg-black hover:text-coralred"
+                className="nav-link p-0"
               >
                 Portfolio
               </Link>
@@ -126,7 +114,7 @@ export default function NavBar() {
               <Link
                 href="#contact"
                 onClick={() => setIsNavOpen(false)}
-                className="p-0 hover:bg-black hover:text-coralred"
+                className="nav-link p-0"
               >
                 Contact
               </Link>
