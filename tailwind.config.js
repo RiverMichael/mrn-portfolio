@@ -39,6 +39,7 @@ module.exports = {
         title: "title 4s ease-out forwards",
         "fade-left": "fade-left 4s ease-in-out forwards",
         "fade-right": "fade-right 4s ease-in-out forwards",
+        "fade-in-sections": "fade-in 7s ease-in-out forwards",
       },
       keyframes: {
         "fade-in": {
