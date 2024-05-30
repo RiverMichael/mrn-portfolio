@@ -21,7 +21,7 @@ export default function AboutSection() {
 
         <article className="flex max-w-lg flex-col gap-8">
           <p>
-            I'm passionate about creating beautiful websites and web
+            I`m passionate about creating beautiful websites and web
             applications that are accessible, responsive, and user-friendly.
           </p>
           <div className="flex flex-col gap-4">

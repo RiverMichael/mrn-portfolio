@@ -11,7 +11,7 @@ export default function HeroSection() {
 
         <div className="animate-fade-in duration-500">
           <p className="text-lg">
-            <span className="text-primary">-</span> I'm Michael River Nilsson, a
+            <span className="text-primary">-</span> I`m Michael River Nilsson, a
             frontend developer specializing in React, Next.js, and Tailwind CSS.
           </p>
 
