@@ -116,9 +116,9 @@ module.exports = {
           alignItems: "center",
           justifyContent: "center",
           gap: "8px",
-          padding: "5px",
+          borderRadius: "8px",
           width: "110px",
-          height: "110px",
+          height: "100px",
           transition: "all 0.2s ease-in-out",
           "&:hover": {
             boxShadow: "0 2px 8px 0 rgba(248, 71, 89, 1)",

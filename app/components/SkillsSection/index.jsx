@@ -11,14 +11,14 @@ export default function SkillsSection() {
         Skills
       </h2>
 
-      <div className="flex flex-wrap items-center justify-center gap-6">
+      <div className="flex flex-wrap items-center justify-center gap-4">
         <Link href="https://www.nextjs.org" target="_blank">
           <div className="skill-item">
             <Image
               src="/nextjs.svg"
               alt="Next js"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               className="invert"
             />
             <h3 className="text-sm">Next.js</h3>
@@ -27,7 +27,7 @@ export default function SkillsSection() {
 
         <Link href="https://www.react.dev">
           <div className="skill-item">
-            <Image src="/reactjs.svg" alt="React" width={50} height={50} />
+            <Image src="/reactjs.svg" alt="React" width={40} height={40} />
             <h3 className="text-sm">React</h3>
           </div>
         </Link>
@@ -37,8 +37,8 @@ export default function SkillsSection() {
             <Image
               src="/javascript.svg"
               alt="Javascript"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
             <h3 className="text-sm">JavaScript</h3>
           </div>
@@ -46,7 +46,7 @@ export default function SkillsSection() {
 
         <Link href="https://www.vitejs.dev">
           <div className="skill-item">
-            <Image src="/vite.svg" alt="Vite" width={50} height={50} />
+            <Image src="/vite.svg" alt="Vite" width={40} height={40} />
             <h3 className="text-sm">Vite</h3>
           </div>
         </Link>
@@ -56,10 +56,10 @@ export default function SkillsSection() {
             <Image
               src="/tailwind.svg"
               alt="Tailwind CSS"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
-            <h3 className="text-sm">Tailwind CSS</h3>
+            <h3 className="text-sm">Tailwind</h3>
           </div>
         </Link>
 
@@ -68,8 +68,8 @@ export default function SkillsSection() {
             <Image
               src="/bootstrap.svg"
               alt="Bootstrap"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
             <h3 className="text-sm">Bootstrap</h3>
           </div>
@@ -77,28 +77,28 @@ export default function SkillsSection() {
 
         <Link href="https://sass-lang.com/">
           <div className="skill-item">
-            <Image src="/sass.svg" alt="Sass" width={50} height={50} />
+            <Image src="/sass.svg" alt="Sass" width={40} height={40} />
             <h3 className="text-sm">Sass</h3>
           </div>
         </Link>
 
         <Link href="https://www.daisyui.com">
           <div className="skill-item">
-            <Image src="/daisyui.svg" alt="DaisyUi" width={50} height={50} />
+            <Image src="/daisyui.svg" alt="DaisyUi" width={40} height={40} />
             <h3 className="text-sm">DaisyUi</h3>
           </div>
         </Link>
 
         <Link href="https://www.flowbite.com">
           <div className="skill-item">
-            <Image src="/flowbite.svg" alt="Flowbite" width={50} height={50} />
+            <Image src="/flowbite.svg" alt="Flowbite" width={40} height={40} />
             <h3 className="text-sm">Flowbite</h3>
           </div>
         </Link>
 
         <Link href="https://www.vitest.dev">
           <div className="skill-item">
-            <Image src="/vitest.svg" alt="Vitest" width={50} height={50} />
+            <Image src="/vitest.svg" alt="Vitest" width={40} height={40} />
             <h3 className="text-sm">Vitest</h3>
           </div>
         </Link>
@@ -108,8 +108,8 @@ export default function SkillsSection() {
             <Image
               src="/cypress.svg"
               alt="Cypress"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               className="invert"
             />
             <h3 className="text-sm">Cypress</h3>
@@ -118,21 +118,21 @@ export default function SkillsSection() {
 
         <Link href="https://jestjs.io">
           <div className="skill-item">
-            <Image src="/jest.svg" alt="Jest" width={50} height={50} />
+            <Image src="/jest.svg" alt="Jest" width={40} height={40} />
             <h3 className="text-sm">Jest</h3>
           </div>
         </Link>
 
         <Link href="https://www.git-scm.com">
           <div className="skill-item">
-            <Image src="/git.svg" alt="Git" width={50} height={50} />
+            <Image src="/git.svg" alt="Git" width={40} height={40} />
             <h3 className="text-sm">Git</h3>
           </div>
         </Link>
 
         <Link href="www.github.com">
           <div className="skill-item">
-            <Image src="/github.svg" alt="GitHub" width={50} height={50} />
+            <Image src="/github.svg" alt="GitHub" width={40} height={40} />
             <h3 className="text-sm">GitHub</h3>
           </div>
         </Link>
@@ -142,8 +142,8 @@ export default function SkillsSection() {
             <Image
               src="/wordpress.svg"
               alt="WordPress"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
             />
             <h3 className="text-sm">WordPress</h3>
           </div>
@@ -151,7 +151,7 @@ export default function SkillsSection() {
 
         <Link href="https://www.figma.com">
           <div className="skill-item">
-            <Image src="/figma.svg" alt="Figma" width={50} height={50} />
+            <Image src="/figma.svg" alt="Figma" width={40} height={40} />
             <h3 className="text-sm">Figma</h3>
           </div>
         </Link>
