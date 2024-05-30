@@ -26,7 +26,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-start">
-        <Link href="#" className="navbar-brand">
+        <Link href="/" className="navbar-brand">
           <Image
             src="/m-logo.png"
             width={50}

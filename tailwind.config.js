@@ -31,6 +31,7 @@ module.exports = {
     extend: {
       boxShadow: {
         primary: "1px 2px 8px 1px rgba(248, 71, 89, 0.39)",
+        card: "0 1px 6px 0 rgba(113,113,122, 1)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

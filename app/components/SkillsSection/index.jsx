@@ -5,13 +5,33 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="flex max-w-4xl animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
+      className="flex max-w-6xl animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
     >
       <h2 className="text-4xl font-bold capitalize text-primary sm:text-5xl xl:text-6xl">
         Skills
       </h2>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
+        <Link
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+        >
+          <div className="skill-item">
+            <Image src="/html.svg" alt="HTML" width={40} height={40} />
+            <he className="text-sm">HTML</he>
+          </div>
+        </Link>
+
+        <Link
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="_blank"
+        >
+          <div className="skill-item">
+            <Image src="/css.svg" alt="CSS" width={40} height={40} />
+            <h3 className="text-sm">CSS</h3>
+          </div>
+        </Link>
+
         <Link href="https://www.nextjs.org" target="_blank">
           <div className="skill-item">
             <Image
