@@ -17,7 +17,7 @@ export default function HeroSection() {
 
           <Link
             href="#contact"
-            className="btn btn-primary btn-sm mt-5 rounded border-2 text-lg hover:bg-black hover:text-primary"
+            className="btn btn-outline btn-primary btn-sm mt-5 rounded border-2 text-lg hover:bg-black hover:text-primary"
           >
             Contact me
           </Link>
