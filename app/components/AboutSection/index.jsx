@@ -11,13 +11,15 @@ export default function AboutSection() {
         About me
       </h2>
       <div className="flex flex-wrap justify-center gap-12 px-10">
-        <Image
-          src="/mrn_avatar.png"
-          alt="Avatar"
-          width={500}
-          height={500}
-          className="h-72 w-72 rounded-full object-cover object-top ps-8 pt-3 shadow-primary sm:h-80 sm:w-80"
-        />
+        <figure>
+          <Image
+            src="/mrn_avatar.png"
+            alt="Avatar"
+            width={500}
+            height={500}
+            className="h-72 w-72 rounded-full object-cover object-top ps-8 pt-3 shadow-primary sm:h-80 sm:w-80"
+          />
+        </figure>
 
         <article className="flex max-w-lg flex-col gap-8">
           <p>
