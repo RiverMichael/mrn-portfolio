@@ -21,31 +21,26 @@ export default function ContactSection() {
           collaborate or maybe you have an exciting new project for me?
         </p>
 
-        <div className="flex flex-col items-center justify-center gap-5">
-          <p className="text-3xl">I am open for new opportunities!</p>
+        <div className="flex flex-col items-center justify-center gap-8">
+          <h3 className="text-3xl">I am open for new opportunities!</h3>
 
-          <div className="flex gap-5">
+          <div className="flex items-center gap-4">
             <Link
               href="https://github.com/rivermichael"
-              className="hover:animate-shake hover:shadow-card rounded-full p-2 transition-all duration-200"
+              className="hover:animate-shake rounded-full p-2 transition-all duration-200 hover:shadow-primary"
             >
-              <Image
-                src="/icon_github.svg"
-                alt="Github"
-                width={50}
-                height={50}
-              />
+              <Image src="/github.svg" alt="Github" width={60} height={60} />
             </Link>
 
             <Link
               href="https://www.linkedin.com/in/michaelrivernilsson/"
-              className="hover:animate-shake hover:shadow-card rounded-full p-2 transition-all duration-200"
+              className="hover:animate-shake rounded-full p-2 transition-all duration-200 hover:shadow-primary"
             >
               <Image
                 src="/icon_linkedin.svg"
                 alt="Linkedin"
-                width={50}
-                height={50}
+                width={60}
+                height={60}
               />
             </Link>
           </div>

@@ -32,16 +32,15 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://www.nextjs.org" target="_blank">
+        <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
           <div className="skill-item">
             <Image
-              src="/nextjs.svg"
-              alt="Next js"
+              src="/javascript.svg"
+              alt="Javascript"
               width={40}
               height={40}
-              className="invert"
             />
-            <h3 className="text-sm">Next.js</h3>
+            <h3 className="text-sm">JavaScript</h3>
           </div>
         </Link>
 
@@ -52,15 +51,16 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <Link href="https://www.nextjs.org" target="_blank">
           <div className="skill-item">
             <Image
-              src="/javascript.svg"
-              alt="Javascript"
+              src="/nextjs.svg"
+              alt="Next js"
               width={40}
               height={40}
+              className="invert"
             />
-            <h3 className="text-sm">JavaScript</h3>
+            <h3 className="text-sm">Next.js</h3>
           </div>
         </Link>
 
@@ -125,13 +125,7 @@ export default function SkillsSection() {
 
         <Link href="https://www.cypress.io">
           <div className="skill-item">
-            <Image
-              src="/cypress.svg"
-              alt="Cypress"
-              width={40}
-              height={40}
-              className="invert"
-            />
+            <Image src="/cypress.svg" alt="Cypress" width={40} height={40} />
             <h3 className="text-sm">Cypress</h3>
           </div>
         </Link>
