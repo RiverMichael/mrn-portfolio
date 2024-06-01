@@ -1,17 +1,52 @@
+const { transform } = require("next/dist/build/swc");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#f84759",
+          ".nav-link": {
+            color: "#e4e4e7",
+          },
+          ".nav-link:hover": {
+            color: "#f84759",
+          },
+          ".link": {
+            color: "#71717a",
+            "text-decoration": "none",
+          },
+          ".link:hover": {
+            color: "#3f3f46",
+          },
+        },
+      },
+    ],
+  },
   theme: {
     extend: {
+      boxShadow: {
+        primary: "1px 2px 8px 1px rgba(248, 71, 89, 0.39)",
+        card: "0 1px 6px 0 rgba(113,113,122, 1)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
         "fade-in": "fade-in 5s ease-in-out forwards",
-        title: "title 4s ease-out forwards",
+        title: "title 3s ease-out forwards",
         "fade-left": "fade-left 4s ease-in-out forwards",
         "fade-right": "fade-right 4s ease-in-out forwards",
+        "fade-in-sections": "fade-in 7s ease-in-out forwards",
+        shake: "shake 0.25s",
       },
       keyframes: {
         "fade-in": {
@@ -72,8 +107,43 @@ module.exports = {
             opacity: "100%",
           },
         },
+        shake: {
+          "25%": {
+            transform: "rotate(15deg)",
+          },
+          "50%": {
+            transform: "rotate(-15deg)",
+          },
+          "75%": {
+            transform: "rotate(15deg)",
+          },
+          "100%": {
+            transform: "rotate(-15deg)",
+          },
+        },
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    function ({ addComponents }) {
+      const skillItems = {
+        ".skill-item": {
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "8px",
+          borderRadius: "8px",
+          width: "110px",
+          height: "100px",
+          transition: "all 0.2s ease-in-out",
+          "&:hover": {
+            boxShadow: "0 2px 8px 0 rgba(248, 71, 89, 1)",
+          },
+        },
+      };
+      addComponents(skillItems);
+    },
+  ],
 };
