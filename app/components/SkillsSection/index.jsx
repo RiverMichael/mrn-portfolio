@@ -32,7 +32,10 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <Link
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+        >
           <div className="skill-item">
             <Image
               src="/javascript.svg"
@@ -44,14 +47,14 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://www.react.dev">
+        <Link href="https://react.dev" target="_blank">
           <div className="skill-item">
             <Image src="/reactjs.svg" alt="React" width={40} height={40} />
             <h3 className="text-sm">React</h3>
           </div>
         </Link>
 
-        <Link href="https://www.nextjs.org" target="_blank">
+        <Link href="https://nextjs.org" target="_blank">
           <div className="skill-item">
             <Image
               src="/nextjs.svg"
@@ -64,14 +67,14 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://www.vitejs.dev">
+        <Link href="https://vitejs.dev" target="_blank">
           <div className="skill-item">
             <Image src="/vite.svg" alt="Vite" width={40} height={40} />
             <h3 className="text-sm">Vite</h3>
           </div>
         </Link>
 
-        <Link href="https://www.tailwindcss.com">
+        <Link href="https://tailwindcss.com" target="_blank">
           <div className="skill-item">
             <Image
               src="/tailwind.svg"
@@ -83,7 +86,7 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://www.getbootstrap.com">
+        <Link href="https://getbootstrap.com" target="_blank">
           <div className="skill-item">
             <Image
               src="/bootstrap.svg"
@@ -95,63 +98,63 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://sass-lang.com/">
+        <Link href="https://sass-lang.com/" target="_blank">
           <div className="skill-item">
             <Image src="/sass.svg" alt="Sass" width={40} height={40} />
             <h3 className="text-sm">Sass</h3>
           </div>
         </Link>
 
-        <Link href="https://www.daisyui.com">
+        <Link href="https://daisyui.com" target="_blank">
           <div className="skill-item">
             <Image src="/daisyui.svg" alt="DaisyUi" width={40} height={40} />
             <h3 className="text-sm">DaisyUi</h3>
           </div>
         </Link>
 
-        <Link href="https://www.flowbite.com">
+        <Link href="https://flowbite.com" target="_blank">
           <div className="skill-item">
             <Image src="/flowbite.svg" alt="Flowbite" width={40} height={40} />
             <h3 className="text-sm">Flowbite</h3>
           </div>
         </Link>
 
-        <Link href="https://www.vitest.dev">
+        <Link href="https://vitest.dev" target="_blank">
           <div className="skill-item">
             <Image src="/vitest.svg" alt="Vitest" width={40} height={40} />
             <h3 className="text-sm">Vitest</h3>
           </div>
         </Link>
 
-        <Link href="https://www.cypress.io">
+        <Link href="https://cypress.io" target="_blank">
           <div className="skill-item">
             <Image src="/cypress.svg" alt="Cypress" width={40} height={40} />
             <h3 className="text-sm">Cypress</h3>
           </div>
         </Link>
 
-        <Link href="https://jestjs.io">
+        <Link href="https://jestjs.io" target="_blank">
           <div className="skill-item">
             <Image src="/jest.svg" alt="Jest" width={40} height={40} />
             <h3 className="text-sm">Jest</h3>
           </div>
         </Link>
 
-        <Link href="https://www.git-scm.com">
+        <Link href="https://git-scm.com" target="_blank">
           <div className="skill-item">
             <Image src="/git.svg" alt="Git" width={40} height={40} />
             <h3 className="text-sm">Git</h3>
           </div>
         </Link>
 
-        <Link href="www.github.com">
+        <Link href="https://github.com" target="_blank">
           <div className="skill-item">
             <Image src="/github.svg" alt="GitHub" width={40} height={40} />
             <h3 className="text-sm">GitHub</h3>
           </div>
         </Link>
 
-        <Link href="https://www.wordpress.org">
+        <Link href="https://wordpress.org" target="_blank">
           <div className="skill-item">
             <Image
               src="/wordpress.svg"
@@ -163,7 +166,7 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://www.figma.com">
+        <Link href="https://figma.com" target="_blank">
           <div className="skill-item">
             <Image src="/figma.svg" alt="Figma" width={40} height={40} />
             <h3 className="text-sm">Figma</h3>
