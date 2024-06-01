@@ -1,3 +1,5 @@
+const { transform } = require("next/dist/build/swc");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -44,6 +46,7 @@ module.exports = {
         "fade-left": "fade-left 4s ease-in-out forwards",
         "fade-right": "fade-right 4s ease-in-out forwards",
         "fade-in-sections": "fade-in 7s ease-in-out forwards",
+        shake: "shake 0.25s",
       },
       keyframes: {
         "fade-in": {
@@ -102,6 +105,20 @@ module.exports = {
           "100%": {
             "line-height": "100%",
             opacity: "100%",
+          },
+        },
+        shake: {
+          "25%": {
+            transform: "rotate(15deg)",
+          },
+          "50%": {
+            transform: "rotate(-15deg)",
+          },
+          "75%": {
+            transform: "rotate(15deg)",
+          },
+          "100%": {
+            transform: "rotate(-15deg)",
           },
         },
       },
