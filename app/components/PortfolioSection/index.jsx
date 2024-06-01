@@ -157,7 +157,7 @@ export default function PortfolioSection() {
               </h4>
               <ul className="flex flex-wrap gap-4 text-zinc-400 transition-all duration-200 ease-in-out group-hover:text-zinc-300">
                 <li className="transition-all duration-200 ease-in-out hover:scale-90">
-                  <Link href="https://www.react.dev" target="_blank">
+                  <Link href="https://react.dev" target="_blank">
                     <Image
                       src="/reactjs.svg"
                       alt="React"

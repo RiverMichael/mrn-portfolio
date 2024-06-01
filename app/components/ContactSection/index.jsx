@@ -27,13 +27,15 @@ export default function ContactSection() {
           <div className="flex items-center gap-4">
             <Link
               href="https://github.com/rivermichael"
+              target="_blank"
               className="hover:animate-shake rounded-full p-2 transition-all duration-200 hover:shadow-primary"
             >
               <Image src="/github.svg" alt="Github" width={60} height={60} />
             </Link>
 
             <Link
-              href="https://www.linkedin.com/in/michaelrivernilsson/"
+              href="https://linkedin.com/in/michaelrivernilsson/"
+              target="_blank"
               className="hover:animate-shake rounded-full p-2 transition-all duration-200 hover:shadow-primary"
             >
               <Image
