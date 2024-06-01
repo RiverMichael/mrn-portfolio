@@ -5,7 +5,7 @@ export default function PortfolioSection() {
   return (
     <section
       id="portfolio"
-      className="flex animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
+      className="flex animate-fade-in-sections flex-col items-center justify-center gap-12 pt-28 duration-500"
     >
       <h2 className="text-4xl font-bold capitalize text-primary sm:text-5xl xl:text-6xl">
         Portfolio

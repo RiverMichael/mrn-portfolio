@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="flex max-w-5xl animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
+      className="flex max-w-5xl animate-fade-in-sections flex-col items-center justify-center gap-12 pt-28 duration-500"
     >
       <h2 className="text-4xl font-bold capitalize text-primary sm:text-5xl xl:text-6xl">
         About me
@@ -45,6 +45,17 @@ export default function AboutSection() {
                 className="link"
               >
                 RiverMichael
+              </Link>
+            </div>
+
+            <div>
+              <h3 className="text-lg text-primary">LinkedIn</h3>
+              <Link
+                href="https://www.linkedin.com/in/michaelrivernilsson/"
+                target="_blank"
+                className="link"
+              >
+                Michael River Nilsson
               </Link>
             </div>
 

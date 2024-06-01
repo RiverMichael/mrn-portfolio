@@ -5,7 +5,7 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="flex max-w-6xl animate-fade-in-sections flex-col items-center justify-center gap-12 duration-500"
+      className="flex max-w-6xl animate-fade-in-sections flex-col items-center justify-center gap-12 pt-28 duration-500"
     >
       <h2 className="text-4xl font-bold capitalize text-primary sm:text-5xl xl:text-6xl">
         Skills
