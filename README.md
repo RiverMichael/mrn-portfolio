@@ -70,7 +70,7 @@ To get a local copy up and running follow these steps:
 ### Prerequisites
 
 - [Node.JS](https://nodejs.org/) version 20.11.1 or higher
-- [NPM](https://www.npmjs.com/) version 10.2.4 or higher
+- [NPM](https://npmjs.com/) version 10.2.4 or higher
 
 <!-- INSTALLATION -->
 
@@ -208,7 +208,7 @@ Michael (River) Nilsson - [mrn@michaelriver.dev][mrn-mail] | [michaelriver.dev][
 [live-site]: https://michaelriver.dev/
 [product-screenshot]: /public/screenshot.jpg
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/michaelrivernilsson
-[mrn-url]: https://www.michaelriver.dev
+[linkedin-url]: https://linkedin.com/in/michaelrivernilsson
+[mrn-url]: https://michaelriver.dev
 [mrn-mail]: mailto:mrn@michaelriver.dev
-[noroff-url]: https://www.noroff.no
+[noroff-url]: https://noroff.no
