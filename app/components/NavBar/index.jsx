@@ -38,7 +38,7 @@ export default function NavBar() {
       </div>
 
       <div className="navbar-end">
-        <ul className="menu menu-horizontal hidden gap-10 p-0 text-lg md:flex">
+        <ul className="menu menu-horizontal hidden gap-8 p-0 text-lg md:flex lg:gap-10">
           <li>
             <Link href="#about" className="nav-link p-0">
               About
@@ -81,7 +81,7 @@ export default function NavBar() {
 
           <ul
             tabIndex={0}
-            className={`${isNavOpen ? "block" : "hidden"} menu dropdown-content right-0 top-14 z-[1] flex justify-end gap-5 rounded-bl border-b-2 border-s-2 border-primary bg-black px-10 py-5 text-lg`}
+            className={`${isNavOpen ? "block" : "hidden"} menu dropdown-content right-0 top-14 z-[1] flex justify-end gap-8 rounded-bl border-b-2 border-s-2 border-primary bg-black px-10 py-5 text-lg`}
           >
             <li>
               <Link

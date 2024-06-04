@@ -11,8 +11,8 @@ export default function PortfolioSection() {
         Portfolio
       </h2>
 
-      <div className="mx-auto grid grid-cols-1 gap-8 px-5 lg:grid-cols-3">
-        <div className="shadow-card group card card-compact max-w-sm">
+      <div className="mx-auto grid grid-cols-1 gap-8 px-5 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://holidaze.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -20,7 +20,7 @@ export default function PortfolioSection() {
                 alt="Holidaze"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
@@ -127,7 +127,7 @@ export default function PortfolioSection() {
           </article>
         </div>
 
-        <div className="shadow-card group card card-compact max-w-sm">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://buyme.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -135,7 +135,7 @@ export default function PortfolioSection() {
                 alt="Buyme"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
@@ -231,7 +231,7 @@ export default function PortfolioSection() {
           </article>
         </div>
 
-        <div className="shadow-card group card card-compact max-w-sm">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://auctionhub.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -239,7 +239,7 @@ export default function PortfolioSection() {
                 alt="Auction hub"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
@@ -331,7 +331,7 @@ export default function PortfolioSection() {
           </article>
         </div>
 
-        <div className="shadow-card group card card-compact max-w-sm">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://xplor.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -339,7 +339,7 @@ export default function PortfolioSection() {
                 alt="Holidaze"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
@@ -431,7 +431,7 @@ export default function PortfolioSection() {
           </article>
         </div>
 
-        <div className="shadow-card group card card-compact max-w-sm">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://theflavorfiles.michaelriver.dev/" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -439,7 +439,7 @@ export default function PortfolioSection() {
                 alt="The Flavor Files"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
@@ -535,7 +535,7 @@ export default function PortfolioSection() {
           </article>
         </div>
 
-        <div className="shadow-card group card card-compact max-w-sm">
+        <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://rainydays.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
               <Image
@@ -543,7 +543,7 @@ export default function PortfolioSection() {
                 alt="Rainydays"
                 width={200}
                 height={200}
-                className="h-48 w-full object-cover object-top"
+                className="h-full w-full object-cover object-top"
               />
             </figure>
           </Link>
