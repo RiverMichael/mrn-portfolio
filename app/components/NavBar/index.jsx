@@ -38,7 +38,7 @@ export default function NavBar() {
       </div>
 
       <div className="navbar-end">
-        <ul className="menu menu-horizontal hidden gap-10 p-0 text-lg md:flex">
+        <ul className="menu menu-horizontal hidden gap-8 p-0 text-lg md:flex lg:gap-10">
           <li>
             <Link href="#about" className="nav-link p-0">
               About
