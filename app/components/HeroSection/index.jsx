@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="flex w-full flex-col px-10">
+    <section className="flex w-full flex-col">
       <div className="max-w-lg">
         <h1 className="text-edge-outline font-display animate-title cursor-default whitespace-nowrap bg-zinc-200 bg-clip-text py-5 text-left text-6xl font-bold text-transparent duration-500 sm:text-8xl xl:text-9xl">
           Hello

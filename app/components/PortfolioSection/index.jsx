@@ -11,7 +11,7 @@ export default function PortfolioSection() {
         Portfolio
       </h2>
 
-      <div className="mx-auto grid grid-cols-1 gap-8 px-5 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+      <div className="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
         <div className="group card card-compact max-w-80 shadow-card">
           <Link href="https://holidaze.michaelriver.dev" target="_blank">
             <figure className="h-48 w-full rounded-t-2xl">
