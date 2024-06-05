@@ -147,7 +147,7 @@ export default function AboutSection() {
             <Link href="#contact" className="link">
               get in touch
             </Link>{" "}
-            if you'd like to collaborate or learn more about my work.
+            if you`d like to collaborate or learn more about my work.
           </p>
         </div>
       </article>
