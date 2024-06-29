@@ -42,8 +42,22 @@ export default function SkillsSection() {
               alt="Javascript icon"
               width={40}
               height={40}
+              className="rounded"
             />
             <span className="text-sm">JavaScript</span>
+          </div>
+        </Link>
+
+        <Link href="https://typescriptlang.org/" target="_blank">
+          <div className="skill-item">
+            <Image
+              src="/typescript.svg"
+              alt="Typescript icon"
+              width={40}
+              height={40}
+              className="rounded"
+            />
+            <span className="text-sm">TypeScript</span>
           </div>
         </Link>
 
@@ -105,27 +119,22 @@ export default function SkillsSection() {
           </div>
         </Link>
 
-        <Link href="https://daisyui.com" target="_blank">
+        <Link href="https://docs.pmnd.rs/zustand/" target="_blank">
           <div className="skill-item">
             <Image
-              src="/daisyui.svg"
-              alt="DaisyUi icon"
+              src="/zustand.svg"
+              alt="Zustand icon"
               width={40}
               height={40}
             />
-            <span className="text-sm">DaisyUi</span>
+            <span className="text-sm">Zustand</span>
           </div>
         </Link>
 
-        <Link href="https://flowbite.com" target="_blank">
+        <Link href="https://redux.js.org/" target="_blank">
           <div className="skill-item">
-            <Image
-              src="/flowbite.svg"
-              alt="Flowbite icon"
-              width={40}
-              height={40}
-            />
-            <span className="text-sm">Flowbite</span>
+            <Image src="/redux.svg" alt="Redux icon" width={40} height={40} />
+            <span className="text-sm">Redux</span>
           </div>
         </Link>
 
@@ -133,6 +142,13 @@ export default function SkillsSection() {
           <div className="skill-item">
             <Image src="/vitest.svg" alt="Vitest icon" width={40} height={40} />
             <span className="text-sm">Vitest</span>
+          </div>
+        </Link>
+
+        <Link href="https://jestjs.io" target="_blank">
+          <div className="skill-item">
+            <Image src="/jest.svg" alt="Jest icon" width={40} height={40} />
+            <span className="text-sm">Jest</span>
           </div>
         </Link>
 
@@ -145,13 +161,6 @@ export default function SkillsSection() {
               height={40}
             />
             <span className="text-sm">Cypress</span>
-          </div>
-        </Link>
-
-        <Link href="https://jestjs.io" target="_blank">
-          <div className="skill-item">
-            <Image src="/jest.svg" alt="Jest icon" width={40} height={40} />
-            <span className="text-sm">Jest</span>
           </div>
         </Link>
 
@@ -185,6 +194,30 @@ export default function SkillsSection() {
           <div className="skill-item">
             <Image src="/figma.svg" alt="Figma icon" width={40} height={40} />
             <span className="text-sm">Figma</span>
+          </div>
+        </Link>
+
+        <Link href="https://daisyui.com" target="_blank">
+          <div className="skill-item">
+            <Image
+              src="/daisyui.svg"
+              alt="DaisyUi icon"
+              width={40}
+              height={40}
+            />
+            <span className="text-sm">DaisyUi</span>
+          </div>
+        </Link>
+
+        <Link href="https://flowbite.com" target="_blank">
+          <div className="skill-item">
+            <Image
+              src="/flowbite.svg"
+              alt="Flowbite icon"
+              width={40}
+              height={40}
+            />
+            <span className="text-sm">Flowbite</span>
           </div>
         </Link>
       </div>
