@@ -31,7 +31,7 @@ export default function AboutSection() {
 
               <div>
                 <h3 className="text-lg text-primary">Location</h3>
-                <p>Stockholm, Sweden / Oslo, Norway</p>
+                <p>Stockholm, Sweden</p>
               </div>
 
               <div>
