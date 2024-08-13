@@ -178,6 +178,19 @@ export default function SkillsSection() {
           </div>
         </Link>
 
+        <Link href="https://sanity.io" target="_blank">
+          <div className="skill-item">
+            <Image
+              src="/sanity.svg"
+              alt="Sanity icon"
+              width={40}
+              height={40}
+              className="rounded"
+            />
+            <span className="text-sm">Sanity</span>
+          </div>
+        </Link>
+
         <Link href="https://wordpress.org" target="_blank">
           <div className="skill-item">
             <Image
